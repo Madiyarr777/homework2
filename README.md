@@ -13,14 +13,13 @@ MUD Adventure Game is a simple text-based adventure game written in Java. The ga
 ## Project Structure
 ```
 /mypackage
-  ├── Area.java
-  ├── ForestArea.java
-  ├── GameEngine.java
-  ├── GameLauncher.java
-  ├── Adventurer.java
+  ├── IGameEntity.java
+  ├── Item.java
+  ├── Merchant.java
   ├── Monster.java
-  ├── Door.java
-  ├── NPC.java
+  ├── Player.java
+  ├── MUDController.java
+  ├── MUDGame.java
   ├── ObjectItem.java
   ├── EntityInterface.java
 ```
